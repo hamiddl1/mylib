@@ -7,8 +7,7 @@ setup(
     description='This is a description for mylib',
     #long_description=open('README.md').read(),
     install_requires=[
-        "requests==2.7.0",
-        "Mylib==0.9.9",
+        "requests==2.7.0"
         ],
     dependency_links = [
      "git+git://github.com/hamiddl1/mylib.git#egg=mylib",
